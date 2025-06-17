@@ -1,0 +1,64 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #be0f0f;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0869d1;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Enlaces */
+a {
+    color: #0870df;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
